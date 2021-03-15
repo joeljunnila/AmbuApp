@@ -1,2 +1,5 @@
 # dont read me :D
-UwU OwO JOEL SENNNPAIII <3<3<3<3<3<3>>>>>>
+=======
+
+# hello guys :D
+>>>>>>> 27345d77531dafa39090cc0d0beea8cd166b85d9
