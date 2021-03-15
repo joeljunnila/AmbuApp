@@ -1,7 +1,6 @@
 # dont read me :D
 <<<<<<< HEAD
-# test push 
-=======
+# OK
 
 # hello guys :D
->>>>>>> 27345d77531dafa39090cc0d0beea8cd166b85d9
+>>>>>>> 27345d77531dCHANGED6b85d9
