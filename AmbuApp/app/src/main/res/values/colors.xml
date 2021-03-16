@@ -8,6 +8,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#0000FF</color>
+    <color name="teal">#00FFFF</color>
+
 
     <color name="menuBackgroundColor">#FFD4E3</color>
     <color name="menuTextColor">#AF0505</color>
