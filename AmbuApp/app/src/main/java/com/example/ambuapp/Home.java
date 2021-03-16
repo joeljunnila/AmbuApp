@@ -15,7 +15,7 @@ public class Home extends AppCompatActivity {
     }
 
     public void openActivity(View view) {
-        Intent intent = new Intent(this, MainActivity2.class);
+        Intent intent = new Intent(this, Valmistautuminen.class);
         setResult(RESULT_OK, intent);
         startActivity(intent);
     }

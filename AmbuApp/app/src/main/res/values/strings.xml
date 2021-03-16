@@ -4,4 +4,8 @@
     <string name="homeText2">Synnytysvaiheet</string>
     <string name="homeText3">Tarkistus</string>
     <string name="homeText4">Erikoistilanteet</string>
+
+    <string name="valmistautuminenText1">Valmistautuminen</string>
+    <string name="valmistautuminenText2">Kohteessa vai matkaan?</string>
+    <string name="valmistautuminenText3">Miten toimitaan?</string>
 </resources>
