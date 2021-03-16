@@ -8,10 +8,6 @@
     <string name="valmistautuminenText1">Valmistautuminen</string>
     <string name="valmistautuminenText2">Kohteessa vai matkaan?</string>
     <string name="valmistautuminenText3">Miten toimitaan?</string>
-    <string name="title_activity_synnytyksen_jalkeen">SynnytyksenJalkeen</string>
-    <!--
-    This string is used for square devices and overridden by hello_world in
-    values-round/strings.xml for round devices.
-    -->
-    <string name="hello_world">Hello Square World!</string>
+  
+    <string name="synnytyksenJalkeenText">Miten?</string>
 </resources>

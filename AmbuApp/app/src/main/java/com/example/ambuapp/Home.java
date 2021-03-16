@@ -19,4 +19,10 @@ public class Home extends AppCompatActivity {
         setResult(RESULT_OK, intent);
         startActivity(intent);
     }
+
+    public void openActivity2(View view) {
+        Intent intent = new Intent(this, SynnytyksenJalkeen.class);
+        setResult(RESULT_OK, intent);
+        startActivity(intent);
+    }
 }

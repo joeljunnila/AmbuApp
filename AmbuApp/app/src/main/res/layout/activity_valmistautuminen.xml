@@ -4,73 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Home"
+    tools:context=".Valmistautuminen"
     android:orientation="vertical">
 
-    <LinearLayout
+    <include layout="@layout/menu_bar" />
+
+    <Space
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:background="@color/menuBackgroundColor"
-        android:padding="10dp"
-        android:layout_marginBottom="100dp">
-
-        <ImageButton
-            android:id="@+id/homeIcon"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="1"
-            app:srcCompat="@android:drawable/btn_star_big_on" />
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="4"
-            android:gravity="center"
-            android:text="@string/app_name"
-            android:textColor="@color/menuTextColor"
-            android:textSize="40sp"
-            android:textStyle="bold" />
-
-        <ImageButton
-            android:id="@+id/menuIcon"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="1"
-            app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
-    </LinearLayout>
+        android:layout_height="100dp" />
 
     <Button style="@style/myButtonStyle"
         android:id="@+id/valmistautuminenButton1"
-        android:text="@string/valmistautuminenText1"
-        android:onClick="openActivity" />
+        android:text="@string/valmistautuminenText1" />
 
     <Button style="@style/myButtonStyle"
         android:id="@+id/valmistautuminenButton2"
-        android:text="@string/valmistautuminenText2"
-        android:onClick="openActivity" />
+        android:text="@string/valmistautuminenText2" />
 
     <Button style="@style/myButtonStyle"
         android:id="@+id/valmistautuminenButton3"
-        android:text="@string/valmistautuminenText3"
-        android:onClick="openActivity" />
+        android:text="@string/valmistautuminenText3" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal">
-
-        <ImageButton style="@style/arrowButtonStyle"
-            android:id="@+id/leftArrow"
-            android:layout_marginEnd="50dp"
-            android:src="@android:drawable/ic_media_previous" />
-
-        <ImageButton style="@style/arrowButtonStyle"
-            android:id="@+id/rightArrow"
-            android:src="@android:drawable/ic_media_next" />
-    </LinearLayout>
+    <include layout="@layout/arrows" />
 </LinearLayout>
